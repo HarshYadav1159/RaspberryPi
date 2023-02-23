@@ -2,7 +2,7 @@
 import random
 import operator
 
-
+# RA2011003010746
 dic={2:90, 1: 100, 8: 3, 5: 67, 3: 5}
 dic2=dict(sorted(dic.items(),key= lambda x:x[1]))
 sorted_d = dict( sorted(dic.items(), key=operator.itemgetter(1),reverse=True))
